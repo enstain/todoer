@@ -1,6 +1,10 @@
 import 'normalize.css/';
 import 'font-awesome/css/font-awesome.min.css';
-import '../../baseline.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../baseline.scss';
 import './Root.scss';
+var jQuery = require('jquery');
+window.jQuery = jQuery;
+require('bootstrap');
 import Component from './Root.js';
 export default Component;

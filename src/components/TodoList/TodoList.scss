@@ -1,0 +1,37 @@
+.TodoList {
+  &.table {
+    max-height: 200px;
+    overflow: scroll;
+  }
+}
+
+.table-fixed {
+  thead {
+    width: 97%;
+  }
+
+  tbody {
+    height: 500px;
+    overflow-y: auto;
+    width: 100%;
+
+    td {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+  }
+
+  td {
+    line-height: 36px !important;
+  }
+} 
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}

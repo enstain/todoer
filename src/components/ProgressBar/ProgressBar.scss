@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+
+.progressBar {
+  .level {
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .progress {
+    height: $progress-height;
+    .progress-bar {
+      min-width: 2em;
+      line-height: $progress-height;
+      font-size: 16px;
+    }
+  }
+}

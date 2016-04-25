@@ -1,3 +1,5 @@
+$progress-height: 30px;
+
 // type
 $fs-h1: 2.8rem;
 $fs-h2: 2rem;
@@ -31,23 +33,23 @@ $color-border: $color-gray-2;
 $color-primary-dark: #085473;
 
 // z-index master list
-$z-sticky:		999;
-$z-main-nav:	1000;
-$z-dropdown:	1001;
-$z-modal: 		1002;
-$z-loading:		1004;
-$z-tooltip:		1005;
+$z-sticky:    999;
+$z-main-nav:  1000;
+$z-dropdown:  1001;
+$z-modal:     1002;
+$z-loading:   1004;
+$z-tooltip:   1005;
 
 // misc
-$margin-block:	1.5rem;
-$padding-td:	12px;
+$margin-block:  1.5rem;
+$padding-td:  12px;
 $padding-input: 5px;
 $gutter: 2.2rem;
 
 // screen sizes
 $screen-min-width: 420px;
-$screen-xsmall:	565px;
-$screen-small:	768px;
-$screen-medium:	992px;
-$screen-large:	1240px;
-$screen-xlarge:	1920px;
+$screen-xsmall: 565px;
+$screen-small:  768px;
+$screen-medium: 992px;
+$screen-large:  1240px;
+$screen-xlarge: 1920px;

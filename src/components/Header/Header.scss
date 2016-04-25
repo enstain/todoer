@@ -17,13 +17,13 @@
 			a {
 				flex-shrink: 0;
 				padding: 10px;
-				background: $color-link;
+				
 				color: #fff;
 				margin-right: 2px;
 
 				// Router.Link will automatically apply the active class
 				&.is-active {
-					background: $color-gray-6;
+					
 				}
 			}
 		}
